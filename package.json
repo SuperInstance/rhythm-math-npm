@@ -1,0 +1,22 @@
+{
+  "name": "rhythm-math",
+  "version": "1.0.0",
+  "description": "Rhythm mathematics for the browser and web audio — tempo, polyrhythm, groove, syncopation, and meter",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc && tsc -p tsconfig.test.json",
+    "test": "node --test dist-test/index.test.js",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": ["rhythm", "music", "polyrhythm", "groove", "tempo", "meter", "syncopation", "web-audio"],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SuperInstance/rhythm-math-npm.git"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.0",
+    "@types/node": "^22.0.0"
+  }
+}
